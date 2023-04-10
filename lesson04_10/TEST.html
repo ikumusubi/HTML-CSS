@@ -39,16 +39,23 @@
                 background-color: #ffd9d9;
             }
 
-            p.warning::before{
-                content: "前面";
-                color: red;
+            p.warning{
+                color:aqua;
             }
 
             p.warning::before{
-                content: "後面";
-                color: red;
+                content: "前面 ";
+                color:red;
             }
 
+            p.warning::after{
+                content:"後面";
+                color:red;
+            }
+
+            blockquote.scecond{
+                background-image: url(http://picum);
+            }
         </style>
     </head>
     <body>
@@ -57,5 +64,11 @@
 
         </blockquote>
         <a href="http://www.google.com.tw">google</a>
+
+        <p class="warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <blockquote.scecond>
+
+        </blockquote>
     </body>
 </html>
